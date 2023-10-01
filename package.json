@@ -42,7 +42,7 @@
   "dependencies": {
     "@stdlib/cli-ctor": "^0.1.0",
     "@stdlib/constants-float16-pinf": "^0.1.0",
-    "@stdlib/constants-float32-pinf": "^0.0.7",
+    "@stdlib/constants-float32-pinf": "^0.1.0",
     "@stdlib/constants-float64-pinf": "^0.1.0",
     "@stdlib/constants-int16-max": "^0.1.0",
     "@stdlib/constants-int32-max": "^0.1.0",
