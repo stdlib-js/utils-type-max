@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import typemax from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-max@esm/index.mjs';
+import typemax from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-max@v0.2.1-esm/index.mjs';
 ```
 
 #### typemax( dtype )
@@ -103,7 +103,7 @@ The following numeric types are supported:
 <body>
 <script type="module">
 
-import typemax from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-max@esm/index.mjs';
+import typemax from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-max@v0.2.1-esm/index.mjs';
 
 var m = typemax( 'float64' );
 // returns Infinity
