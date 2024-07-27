@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import typemax from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-max@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-type-max/tags). For example,
+
+```javascript
 import typemax from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-max@v0.2.2-esm/index.mjs';
 ```
 
@@ -103,7 +108,7 @@ The following numeric types are supported:
 <body>
 <script type="module">
 
-import typemax from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-max@v0.2.2-esm/index.mjs';
+import typemax from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-max@esm/index.mjs';
 
 var m = typemax( 'float64' );
 // returns Infinity
