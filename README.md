@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import typemax from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-max@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-type-max/tags). For example,
+
+```javascript
 import typemax from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-max@v0.2.3-deno/mod.js';
 ```
 
@@ -98,7 +103,7 @@ The following numeric types are supported:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import typemax from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-max@v0.2.3-deno/mod.js';
+import typemax from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-max@deno/mod.js';
 
 var m = typemax( 'float64' );
 // returns Infinity
